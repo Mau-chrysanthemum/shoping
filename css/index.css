@@ -1,0 +1,106 @@
+/* 第一屏 */
+.section1{
+
+    background: url(../images/01/products.png) no-repeat center center,
+                url(../images/01/bg.png) no-repeat center bottom;
+}
+
+.section1 .sofa{
+    position: absolute;
+
+    left:50%;
+    margin-left: -160px;
+
+    bottom:320px;
+
+    animation: shake .7s infinite alternate;
+}
+
+.section1 .ball{
+
+    position: absolute;
+    left:50%;
+    margin-left: 130px;
+    bottom:480px;
+
+    animation: shake 1s infinite alternate;
+}
+
+
+@keyframes shake{
+
+    from{}
+    to{
+        transform: translateY(-80px);
+    }
+}
+
+
+/* 第二屏开始 */
+.section2{
+    background: url(../images/02/bg.png) no-repeat center bottom;
+}
+
+.section2 .search01{
+
+    position: absolute;
+    left:50%;
+    /* margin-left: -111px; */
+    margin-left: 30%;
+    bottom: 300px;
+
+    /* transform: translate(600px); */
+}
+
+.section2 .search02{
+
+    position: absolute;
+    left:50%;
+    margin-left: -111px;
+    bottom: 300px;
+
+    display: none;
+}
+
+.section2 .sofas{
+
+    position: absolute;
+    right:50%;
+    margin-right: -220.5px;
+    bottom: 210px;
+    width: 0;
+}
+
+
+/* 第三屏 */
+.section3{
+
+    background: url(../images/03/bg.png) no-repeat center;
+}
+
+.section3 .sofa{
+    position: absolute;
+    left:50%;
+    margin-left: -235px;
+    bottom: 50%;
+    margin-bottom: -65px;
+}
+
+.section3 .color{
+
+    position: absolute;
+    left:50%;
+    margin-left: 40px;
+    bottom: 50%;
+    margin-bottom: -100px;
+}
+
+
+.section3 .add{
+
+    position: absolute;
+    left:50%;
+    margin-left: 40px;
+    bottom: 50%;
+    margin-bottom: -150px;
+}
